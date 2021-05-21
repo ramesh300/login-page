@@ -1,0 +1,101 @@
+/*GERAL*/
+body{
+  background-image:url('https://milkshake-production-user-images.imgix.net/82a6f0be-92cb-4043-a716-ea73ba320334?auto=format&w=828');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+   
+  }
+
+h1{
+    text-align: left;
+    margin-left: 156px;
+    
+}
+  
+ /*FORM*/
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 750px;
+    max-height: 400px;
+    margin: 80px auto;
+    padding: 15px;
+    border-radius: 12px;
+    background-image: url(https://lh3.googleusercontent.com/fife/ABSRlIoxsz4jp-HdHNYNn5Z22F2NeGESAV7Pm6qiG3r7Kbb8XZy7m-XhyQ0Kwafh2u--SnKkhUK3EZ_nh0RdfPPyjwug8RERyc05gT0goRbtw4tPLzMshdtfojr6s-G9Un-pLSsmDoKUnGQYD5Pj6Sen9O4D1h4t2D_p38r4YQMZPNMUgRfM-00mGD9XVuoRMEyGG6t72j8SGX6ij3L5WX8v83tJZuUkZcw_vAVkWO7D8rsVc8y6FGjN5H0jG_ZwYSFUso8CFWuiXlrljr9sgHMtXeetUl2LbU76UD6rtoML9ZOkeflgsQQGKbrRCMaHU9iTUoGcjiwiH1GY5PbyiGIIUy9rHEyxEaYXdZQmrRU5sfF2URBcT_jdPX4DyiDivLxOsZdrqRGO3Y21KfHMvTPNdbA8ZQcy9I2HS3EprmlDTqyhPz5ID2CUdubE3L-iEnFcsUCoD8djEAaiLTZXKZaQcte7o83Be9U4W1mXHgHvXoUe9kzF4qzn2WV-LC_VXeoKE53bUW7hqBfu40W89g7zUwQddhBFgd1HCrwbPqG7D6dmmQiPvMqVdfsOtbq8aTz5czYeSwX6A4ZUH_NqSvp7j9CNP8fHH3WYFMo9jsMte_Yny-cXv8g_SWYpUjHKwj3CPLdL8CR72MOioHDXmMNN_AE87bu8OVtbS63yVRtcUS0OX86fTLGS9qcdEwGRsA2sTwIJf4r_vKUDKnnaoV002YTwnixQOd3_bw=w1366-h657-ft);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: auto;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    -webkit-transition: all 0.5s ease;
+    transition: all 1.0s ease;
+    -webkit-appearance: none;
+}
+/*INPUT E TEXT.AREA*/
+.input-group-addon{
+    background:#005765!important; 
+    border: 0px solid #005765!important;
+    color: #eee!important;
+}
+input{
+    margin-top: -20px;
+    width: 395px;
+    height: 60px;
+    padding: 1px;
+    font-size: 22px;
+    text-align: center;
+    background: none;
+    background-image: none;
+    border: 2px solid #005765;
+    color: #464646!important;
+    border-radius: 8px;
+    -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+    transition: border-color .25s ease, box-shadow .25s ease;
+}
+input{
+    outline: 0;
+    border-color: #005765;
+}
+/*LINKS*/
+form p{
+    margin-top: auto;
+    margin-bottom: 50;
+    text-align: left;
+    margin-left: 135px;
+}
+
+form a {
+    text-decoration: none;
+    color: #005765;
+    -webkit-transition: 1.5s ease;
+    transition: 1.5s ease;
+    position: relative;
+    
+}
+form a:hover{
+    color: #464646;
+    text-decoration: none;
+}
+a:focus{
+    color: #464646!important;
+    text-decoration: none!important;
+}
+/*BOTOES*/
+.botao {
+    padding: 15px 0;
+    letter-spacing: .1em;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: none;
+    background: #005765;
+    border: 0;
+    border-radius: 5;
+    color: #eee!important;
+    -webkit-transition: all 1.5s ease;
+    transition: all 1.5s ease;
+    -webkit-appearance: none;
+}
+
+.botao:hover, .botao:focus {
+    background: #0b3c44;
+}
